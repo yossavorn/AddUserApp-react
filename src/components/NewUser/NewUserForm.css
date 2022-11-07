@@ -1,0 +1,23 @@
+
+.form-control {
+  font: inherit;
+  
+}
+.form-control label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.form-control input {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+Button{
+    margin-top: 2rem;
+}
+
+ErrorModal{
+  padding: 0;
+}
