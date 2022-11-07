@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AddUserApp-react/static/css/main.55acf534.css",
+    "main.js": "/AddUserApp-react/static/js/main.d8068cef.js",
+    "index.html": "/AddUserApp-react/index.html",
+    "main.55acf534.css.map": "/AddUserApp-react/static/css/main.55acf534.css.map",
+    "main.d8068cef.js.map": "/AddUserApp-react/static/js/main.d8068cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55acf534.css",
+    "static/js/main.d8068cef.js"
+  ]
+}
