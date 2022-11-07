@@ -5,16 +5,13 @@ import Users from "./components/User/Users";
 import Card from "./components/UXUI/Card";
 
 function App() {
-  const [userList, setUserList] = useState([
-    
-  ]);
+  const [userList, setUserList] = useState([]);
 
   const onSaveUserDataHandler = (data) => {
-    setUserList(prevUser => {
-      return [data,...prevUser]
-
-    })
-  }
+    setUserList((prevUser) => {
+      return [data, ...prevUser];
+    });
+  };
   let content = <p className="no-user-description">No User</p>;
   console.log(userList);
   if (userList.length > 0) {
@@ -24,8 +21,7 @@ function App() {
   return (
     <div className="App">
       <Card className="content-card">
-        
-        <NewUserForm onSaveUserData = {onSaveUserDataHandler}></NewUserForm>
+        <NewUserForm onSaveUserData={onSaveUserDataHandler}></NewUserForm>
       </Card>
       <Card className="content-card">{content}</Card>
     </div>
